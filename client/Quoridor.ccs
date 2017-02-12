@@ -1,0 +1,251 @@
+<Solution>
+  <PropertyGroup Name="Quoridor" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Image">
+          <Image Name="aaa.png" />
+          <Image Name="bg_gameresult.png" />
+          <Image Name="bg_login.png" />
+          <Image Name="bg_scroll.png" />
+          <Image Name="bg_scroll_change.png" />
+          <Image Name="game_chess_background.png" />
+          <Image Name="hbar.png" />
+          <Image Name="headFrame.png" />
+          <Image Name="HelloWorld.png" />
+          <Image Name="map.png" />
+          <Image Name="nameAndLevel.png" />
+          <Image Name="Setting_InGame_SliderBack.png" />
+          <Image Name="Setting_InGame_SliderProcess.png" />
+          <Image Name="Setting_InGame_SliderThumb.png" />
+          <Image Name="Setting_InGame_Switch_mask.png" />
+          <Image Name="Setting_InGame_Switch_off.png" />
+          <Image Name="Setting_InGame_Switch_on.png" />
+          <Image Name="Setting_InGame_Switch_thumb.png" />
+          <Image Name="settingBG.png" />
+          <Image Name="vbar.png" />
+        </Folder>
+        <Folder Name="Plist">
+          <PlistImageFolder Image="ChoosePlayScene.png" PListFile="ChoosePlayScene.plist" Name=".ChoosePlayScene_PList.Dir">
+            <PlistImageFile Name="bg_label_score.png" Key="bg_label_score.png" />
+            <PlistImageFile Name="bg_score.png" Key="bg_score.png" />
+            <PlistImageFile Name="button_local_game_down.png" Key="button_local_game_down.png" />
+            <PlistImageFile Name="button_local_game_up.png" Key="button_local_game_up.png" />
+            <PlistImageFile Name="button_with_friend_down.png" Key="button_with_friend_down.png" />
+            <PlistImageFile Name="button_with_friend_up.png" Key="button_with_friend_up.png" />
+            <PlistImageFile Name="button_zone_exchange_down.png" Key="button_zone_exchange_down.png" />
+            <PlistImageFile Name="button_zone_exchange_up.png" Key="button_zone_exchange_up.png" />
+            <PlistImageFile Name="button_zone_forbid_down.png" Key="button_zone_forbid_down.png" />
+            <PlistImageFile Name="button_zone_forbid_up.png" Key="button_zone_forbid_up.png" />
+            <PlistImageFile Name="button_zone_high_down.png" Key="button_zone_high_down.png" />
+            <PlistImageFile Name="button_zone_high_up.png" Key="button_zone_high_up.png" />
+            <PlistImageFile Name="button_zone_normal_down.png" Key="button_zone_normal_down.png" />
+            <PlistImageFile Name="button_zone_normal_up.png" Key="button_zone_normal_up.png" />
+            <PlistImageFile Name="label_score.png" Key="label_score.png" />
+            <PlistImageFile Name="scene_title.png" Key="scene_title.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="common_buttons.png" PListFile="common_buttons.plist" Name=".common_buttons_PList.Dir">
+            <PlistImageFile Name="button_back_down.png" Key="button_back_down.png" />
+            <PlistImageFile Name="button_back_up.png" Key="button_back_up.png" />
+            <PlistImageFile Name="button_hall_down.png" Key="button_hall_down.png" />
+            <PlistImageFile Name="button_hall_up.png" Key="button_hall_up.png" />
+            <PlistImageFile Name="button_help_down.png" Key="button_help_down.png" />
+            <PlistImageFile Name="button_help_up.png" Key="button_help_up.png" />
+            <PlistImageFile Name="button_leave_down.png" Key="button_leave_down.png" />
+            <PlistImageFile Name="button_leave_up.png" Key="button_leave_up.png" />
+            <PlistImageFile Name="button_setting_down.png" Key="button_setting_down.png" />
+            <PlistImageFile Name="button_setting_up.png" Key="button_setting_up.png" />
+            <PlistImageFile Name="NewLogo.png" Key="NewLogo.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="Dialog.png" PListFile="Dialog.plist" Name=".Dialog_PList.Dir">
+            <PlistImageFile Name="bg_dialog.png" Key="bg_dialog.png" />
+            <PlistImageFile Name="bg_textfield_table_id.png" Key="bg_textfield_table_id.png" />
+            <PlistImageFile Name="dialog_button_after_down.png" Key="dialog_button_after_down.png" />
+            <PlistImageFile Name="dialog_button_after_up.png" Key="dialog_button_after_up.png" />
+            <PlistImageFile Name="dialog_button_cancel_down.png" Key="dialog_button_cancel_down.png" />
+            <PlistImageFile Name="dialog_button_cancel_up.png" Key="dialog_button_cancel_up.png" />
+            <PlistImageFile Name="dialog_button_create_table_down.png" Key="dialog_button_create_table_down.png" />
+            <PlistImageFile Name="dialog_button_create_table_up.png" Key="dialog_button_create_table_up.png" />
+            <PlistImageFile Name="dialog_button_download_down.png" Key="dialog_button_download_down.png" />
+            <PlistImageFile Name="dialog_button_download_up.png" Key="dialog_button_download_up.png" />
+            <PlistImageFile Name="dialog_button_join_table_down.png" Key="dialog_button_join_table_down.png" />
+            <PlistImageFile Name="dialog_button_join_table_up.png" Key="dialog_button_join_table_up.png" />
+            <PlistImageFile Name="dialog_button_leave_game.png" Key="dialog_button_leave_game.png" />
+            <PlistImageFile Name="dialog_button_leave_game_down.png" Key="dialog_button_leave_game_down.png" />
+            <PlistImageFile Name="dialog_button_No_down.png" Key="dialog_button_No_down.png" />
+            <PlistImageFile Name="dialog_button_No_up.png" Key="dialog_button_No_up.png" />
+            <PlistImageFile Name="dialog_button_ok_down.png" Key="dialog_button_ok_down.png" />
+            <PlistImageFile Name="dialog_button_ok_up.png" Key="dialog_button_ok_up.png" />
+            <PlistImageFile Name="dialog_button_quit_down.png" Key="dialog_button_quit_down.png" />
+            <PlistImageFile Name="dialog_button_quit_up.png" Key="dialog_button_quit_up.png" />
+            <PlistImageFile Name="dialog_button_return_game.png" Key="dialog_button_return_game.png" />
+            <PlistImageFile Name="dialog_button_return_game_down.png" Key="dialog_button_return_game_down.png" />
+            <PlistImageFile Name="dialog_button_Yes_down.png" Key="dialog_button_Yes_down.png" />
+            <PlistImageFile Name="dialog_button_Yes_up.png" Key="dialog_button_Yes_up.png" />
+            <PlistImageFile Name="dialog_text_error_bad_table_id.png" Key="dialog_text_error_bad_table_id.png" />
+            <PlistImageFile Name="dialog_text_error_no_table_id.png" Key="dialog_text_error_no_table_id.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="GameLayer.png" PListFile="GameLayer.plist" Name=".GameLayer_PList.Dir">
+            <PlistImageFile Name="chess_border_bottom.png" Key="chess_border_bottom.png" />
+            <PlistImageFile Name="chess_border_left.png" Key="chess_border_left.png" />
+            <PlistImageFile Name="chess_border_right.png" Key="chess_border_right.png" />
+            <PlistImageFile Name="chess_border_top.png" Key="chess_border_top.png" />
+            <PlistImageFile Name="game_bg_round_timer.png" Key="game_bg_round_timer.png" />
+            <PlistImageFile Name="game_bg_step_timer.png" Key="game_bg_step_timer.png" />
+            <PlistImageFile Name="game_bg_tips_join_table.png" Key="game_bg_tips_join_table.png" />
+            <PlistImageFile Name="game_black.png" Key="game_black.png" />
+            <PlistImageFile Name="game_black_big_chess_node.png" Key="game_black_big_chess_node.png" />
+            <PlistImageFile Name="game_black_chess_node.png" Key="game_black_chess_node.png" />
+            <PlistImageFile Name="game_black_chess_node_picked_big_up.png" Key="game_black_chess_node_picked_big_up.png" />
+            <PlistImageFile Name="game_black_chess_node_picked_up.png" Key="game_black_chess_node_picked_up.png" />
+            <PlistImageFile Name="game_black_chess_three_node.png" Key="game_black_chess_three_node.png" />
+            <PlistImageFile Name="game_black_local.png" Key="game_black_local.png" />
+            <PlistImageFile Name="game_button_change_table_down.png" Key="game_button_change_table_down.png" />
+            <PlistImageFile Name="game_button_change_table_up.png" Key="game_button_change_table_up.png" />
+            <PlistImageFile Name="game_button_chat_disable.png" Key="game_button_chat_disable.png" />
+            <PlistImageFile Name="game_button_chat_down.png" Key="game_button_chat_down.png" />
+            <PlistImageFile Name="game_button_chat_up.png" Key="game_button_chat_up.png" />
+            <PlistImageFile Name="game_button_giveup_disable.png" Key="game_button_giveup_disable.png" />
+            <PlistImageFile Name="game_button_giveup_down.png" Key="game_button_giveup_down.png" />
+            <PlistImageFile Name="game_button_giveup_up.png" Key="game_button_giveup_up.png" />
+            <PlistImageFile Name="game_button_menu_up.png" Key="game_button_menu_up.png" />
+            <PlistImageFile Name="game_button_menu_up_02.png" Key="game_button_menu_up_02.png" />
+            <PlistImageFile Name="game_button_ready_down.png" Key="game_button_ready_down.png" />
+            <PlistImageFile Name="game_button_ready_up.png" Key="game_button_ready_up.png" />
+            <PlistImageFile Name="game_button_regret_disable.png" Key="game_button_regret_disable.png" />
+            <PlistImageFile Name="game_button_regret_down.png" Key="game_button_regret_down.png" />
+            <PlistImageFile Name="game_button_regret_up.png" Key="game_button_regret_up.png" />
+            <PlistImageFile Name="game_button_start_down.png" Key="game_button_start_down.png" />
+            <PlistImageFile Name="game_button_start_up.png" Key="game_button_start_up.png" />
+            <PlistImageFile Name="game_button_try_to_draw_disable.png" Key="game_button_try_to_draw_disable.png" />
+            <PlistImageFile Name="game_button_try_to_draw_down.png" Key="game_button_try_to_draw_down.png" />
+            <PlistImageFile Name="game_button_try_to_draw_up.png" Key="game_button_try_to_draw_up.png" />
+            <PlistImageFile Name="game_chess_big_blur_mark.png" Key="game_chess_big_blur_mark.png" />
+            <PlistImageFile Name="game_chess_blur_mark.png" Key="game_chess_blur_mark.png" />
+            <PlistImageFile Name="game_chess_blur_three.png" Key="game_chess_blur_three.png" />
+            <PlistImageFile Name="game_current_step_big_mark.png" Key="game_current_step_big_mark.png" />
+            <PlistImageFile Name="game_current_step_mark.png" Key="game_current_step_mark.png" />
+            <PlistImageFile Name="game_last_step_big_mark.png" Key="game_last_step_big_mark.png" />
+            <PlistImageFile Name="game_last_step_mark.png" Key="game_last_step_mark.png" />
+            <PlistImageFile Name="game_last_step_mark_three.png" Key="game_last_step_mark_three.png" />
+            <PlistImageFile Name="game_white.png" Key="game_white.png" />
+            <PlistImageFile Name="game_white_big_chess_node.png" Key="game_white_big_chess_node.png" />
+            <PlistImageFile Name="game_white_chess_node.png" Key="game_white_chess_node.png" />
+            <PlistImageFile Name="game_white_chess_node_picked_big_up.png" Key="game_white_chess_node_picked_big_up.png" />
+            <PlistImageFile Name="game_white_chess_node_picked_up.png" Key="game_white_chess_node_picked_up.png" />
+            <PlistImageFile Name="game_white_chess_three_node.png" Key="game_white_chess_three_node.png" />
+            <PlistImageFile Name="game_white_local.png" Key="game_white_local.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="GameLayerAnimation.png" PListFile="GameLayerAnimation.plist" Name=".GameLayerAnimation_PList.Dir">
+            <PlistImageFile Name="bg_game_reason.png" Key="bg_game_reason.png" />
+            <PlistImageFile Name="game_reason_bai.png" Key="game_reason_bai.png" />
+            <PlistImageFile Name="game_reason_chang.png" Key="game_reason_chang.png" />
+            <PlistImageFile Name="game_reason_chao.png" Key="game_reason_chao.png" />
+            <PlistImageFile Name="game_reason_fang.png" Key="game_reason_fang.png" />
+            <PlistImageFile Name="game_reason_halo.png" Key="game_reason_halo.png" />
+            <PlistImageFile Name="game_reason_he.png" Key="game_reason_he.png" />
+            <PlistImageFile Name="game_reason_hei.png" Key="game_reason_hei.png" />
+            <PlistImageFile Name="game_reason_jin.png" Key="game_reason_jin.png" />
+            <PlistImageFile Name="game_reason_lian.png" Key="game_reason_lian.png" />
+            <PlistImageFile Name="game_reason_qi.png" Key="game_reason_qi.png" />
+            <PlistImageFile Name="game_reason_ren.png" Key="game_reason_ren.png" />
+            <PlistImageFile Name="game_reason_san.png" Key="game_reason_san.png" />
+            <PlistImageFile Name="game_reason_shi.png" Key="game_reason_shi.png" />
+            <PlistImageFile Name="game_reason_shou.png" Key="game_reason_shou.png" />
+            <PlistImageFile Name="game_reason_shu.png" Key="game_reason_shu.png" />
+            <PlistImageFile Name="game_reason_shuang.png" Key="game_reason_shuang.png" />
+            <PlistImageFile Name="game_reason_si.png" Key="game_reason_si.png" />
+            <PlistImageFile Name="game_reason_star_map_01.png" Key="game_reason_star_map_01.png" />
+            <PlistImageFile Name="game_reason_star_map_02.png" Key="game_reason_star_map_02.png" />
+            <PlistImageFile Name="game_reason_StarLight.png" Key="game_reason_StarLight.png" />
+            <PlistImageFile Name="game_reason_wu.png" Key="game_reason_wu.png" />
+            <PlistImageFile Name="game_reason_zhu.png" Key="game_reason_zhu.png" />
+            <PlistImageFile Name="game_reason_zi.png" Key="game_reason_zi.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="GameResultLayer.png" PListFile="GameResultLayer.plist" Name=".GameResultLayer_PList.Dir">
+            <PlistImageFile Name="gameresult_bg_score.png" Key="gameresult_bg_score.png" />
+            <PlistImageFile Name="gameresult_button_again_down.png" Key="gameresult_button_again_down.png" />
+            <PlistImageFile Name="gameresult_button_again_up.png" Key="gameresult_button_again_up.png" />
+            <PlistImageFile Name="gameresult_button_change_table_down.png" Key="gameresult_button_change_table_down.png" />
+            <PlistImageFile Name="gameresult_button_change_table_up.png" Key="gameresult_button_change_table_up.png" />
+            <PlistImageFile Name="gameresult_degrade.png" Key="gameresult_degrade.png" />
+            <PlistImageFile Name="gameresult_draw.png" Key="gameresult_draw.png" />
+            <PlistImageFile Name="gameresult_flame_win.png" Key="gameresult_flame_win.png" />
+            <PlistImageFile Name="gameresult_halo_draw.png" Key="gameresult_halo_draw.png" />
+            <PlistImageFile Name="gameresult_halo_lose.png" Key="gameresult_halo_lose.png" />
+            <PlistImageFile Name="gameresult_halo_win.png" Key="gameresult_halo_win.png" />
+            <PlistImageFile Name="gameresult_label_score.png" Key="gameresult_label_score.png" />
+            <PlistImageFile Name="gameresult_lose.png" Key="gameresult_lose.png" />
+            <PlistImageFile Name="gameresult_minus.png" Key="gameresult_minus.png" />
+            <PlistImageFile Name="gameresult_plus.png" Key="gameresult_plus.png" />
+            <PlistImageFile Name="gameresult_splitter.png" Key="gameresult_splitter.png" />
+            <PlistImageFile Name="gameresult_text_degrade.png" Key="gameresult_text_degrade.png" />
+            <PlistImageFile Name="gameresult_text_degrade_scaled.png" Key="gameresult_text_degrade_scaled.png" />
+            <PlistImageFile Name="gameresult_text_upgrade.png" Key="gameresult_text_upgrade.png" />
+            <PlistImageFile Name="gameresult_text_upgrade_scaled.png" Key="gameresult_text_upgrade_scaled.png" />
+            <PlistImageFile Name="gameresult_upgrade.png" Key="gameresult_upgrade.png" />
+            <PlistImageFile Name="gameresult_win.png" Key="gameresult_win.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="login.png" PListFile="login.plist" Name=".login_PList.Dir">
+            <PlistImageFile Name="autoLogin.png" Key="autoLogin.png" />
+            <PlistImageFile Name="inputUinAndPassBox.png" Key="inputUinAndPassBox.png" />
+            <PlistImageFile Name="inputUinAndPassBox_disabled.png" Key="inputUinAndPassBox_disabled.png" />
+            <PlistImageFile Name="localButton.png" Key="localButton.png" />
+            <PlistImageFile Name="loginButton.png" Key="loginButton.png" />
+            <PlistImageFile Name="loginLogo.png" Key="loginLogo.png" />
+            <PlistImageFile Name="password.png" Key="password.png" />
+            <PlistImageFile Name="pressLocalButton.png" Key="pressLocalButton.png" />
+            <PlistImageFile Name="pressLoginButton.png" Key="pressLoginButton.png" />
+            <PlistImageFile Name="remberPassword.png" Key="remberPassword.png" />
+            <PlistImageFile Name="select.png" Key="select.png" />
+            <PlistImageFile Name="selectBox.png" Key="selectBox.png" />
+            <PlistImageFile Name="uin.png" Key="uin.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="settingImage.png" PListFile="settingImage.plist" Name=".settingImage_PList.Dir">
+            <PlistImageFile Name="chese_style_Chick_Disenable.png" Key="chese_style_Chick_Disenable.png" />
+            <PlistImageFile Name="chese_style_Disenable.png" Key="chese_style_Disenable.png" />
+            <PlistImageFile Name="Chess_style.png" Key="Chess_style.png" />
+            <PlistImageFile Name="Chess_style_Click.png" Key="Chess_style_Click.png" />
+            <PlistImageFile Name="Chess_style_Slide.png" Key="Chess_style_Slide.png" />
+            <PlistImageFile Name="effect.png" Key="effect.png" />
+            <PlistImageFile Name="Light_Back.png" Key="Light_Back.png" />
+            <PlistImageFile Name="powerSave.png" Key="powerSave.png" />
+            <PlistImageFile Name="Setting_InGame_Switch_Power_thumb.png" Key="Setting_InGame_Switch_Power_thumb.png" />
+            <PlistImageFile Name="Setting_InGame_Switch_thumb.png" Key="Setting_InGame_Switch_thumb.png" />
+            <PlistImageFile Name="settingBG.png" Key="settingBG.png" />
+            <PlistImageFile Name="sound.png" Key="sound.png" />
+            <PlistImageFile Name="vibrate.png" Key="vibrate.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="userHead.png" PListFile="userHead.plist" Name=".userHead_PList.Dir">
+            <PlistImageFile Name="Head_Common_null.png" Key="Head_Common_null.png" />
+            <PlistImageFile Name="local_robot_head_0.png" Key="local_robot_head_0.png" />
+            <PlistImageFile Name="local_robot_head_1.png" Key="local_robot_head_1.png" />
+            <PlistImageFile Name="local_robot_head_2.png" Key="local_robot_head_2.png" />
+            <PlistImageFile Name="local_robot_head_3.png" Key="local_robot_head_3.png" />
+            <PlistImageFile Name="local_robot_head_4.png" Key="local_robot_head_4.png" />
+            <PlistImageFile Name="local_robot_head_5.png" Key="local_robot_head_5.png" />
+          </PlistImageFolder>
+        </Folder>
+        <Project Name="chooseLayer.csd" Type="Scene" />
+        <Project Name="gameLayer.csd" Type="Scene" />
+        <Project Name="gameMoreLayer.csd" Type="Scene" />
+        <Image Name="gameresult_score_numbers.png" />
+        <Image Name="label_level_numbers.png" />
+        <TTF Name="level.ttf" />
+        <Project Name="loginLayer.csd" Type="Scene" />
+        <Project Name="lResultLayer.csd" Type="Scene" />
+        <Image Name="main_wanjiashuzi.png" />
+        <Project Name="MainScene.csd" Type="Scene" />
+        <TmxFile Name="map.tmx" />
+        <TTF Name="Marker Felt.ttf" />
+        <Project Name="onOffNode.csd" Type="Node" />
+        <PlistParticleFile Name="particle.plist" />
+        <PlistParticleFile Name="particle_texture.plist" />
+        <Project Name="pResultLayer.csd" Type="Scene" />
+        <Project Name="settingLayer.csd" Type="Scene" />
+        <Project Name="wResultLayer.csd" Type="Scene" />
+        <Project Name="registerLayer.csd" Type="Scene" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-down" width="44" height="44" tilewidth="13" tileheight="13" nextobjectid="1">
+ <tileset firstgid="1" name="pawnwood4b" tilewidth="13" tileheight="13" tilecount="46" columns="1">
+  <image source="pawnwood4b.png" width="13" height="13"/>
+ </tileset>
+ <tileset firstgid="1060" name="pawnwood4b1" tilewidth="13" tileheight="13" tilecount="1" columns="1">
+  <image source="pawnwood4b1.png" width="13" height="13"/>
+ </tileset>
+ <layer name="块层 1" width="44" height="44">
+  <data encoding="base64" compression="zlib">
+   eJztkDEKwAAQg67//3Tn0jUEAwZcnCR33z33H8lROuzluCUafyQdpcNejlui8UfSUTrs5bglGn8kHaXDXo5bovFH0lE67OW4JRp/JB2lw16OW6LxR9JROuzluCUafyQdpcNejlui8UfSUTrsZbgX9WsCgQ==
+  </data>
+ </layer>
+</map>

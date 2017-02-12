@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AsioServer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AsioServer">
+				<Option output="/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/AsioServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 AsioServer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AsioServer/fast">
+				<Option output="/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/AsioServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 AsioServer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/shiyi/CLionProjects/AsioServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/shiyi/CLionProjects/AsioServer/action/action.h">
+			<Option target="AsioServer"/>
+		</Unit>
+		<Unit filename="/Users/shiyi/CLionProjects/AsioServer/action/before_game_action.h">
+			<Option target="AsioServer"/>
+		</Unit>
+		<Unit filename="/Users/shiyi/CLionProjects/AsioServer/action/login_action.h">
+			<Option target="AsioServer"/>
+		</Unit>
+		<Unit filename="/Users/shiyi/CLionProjects/AsioServer/action/register_action.h">
+			<Option target="AsioServer"/>
+		</Unit>
+		<Unit filename="/Users/shiyi/CLionProjects/AsioServer/connection.cpp">
+			<Option target="AsioServer"/>
+		</Unit>
+		<Unit filename="/Users/shiyi/CLionProjects/AsioServer/connection.h">
+			<Option target="AsioServer"/>
+		</Unit>
+		<Unit filename="/Users/shiyi/CLionProjects/AsioServer/factory.hpp">
+			<Option target="AsioServer"/>
+		</Unit>
+		<Unit filename="/Users/shiyi/CLionProjects/AsioServer/global_data.h">
+			<Option target="AsioServer"/>
+		</Unit>
+		<Unit filename="/Users/shiyi/CLionProjects/AsioServer/io_service_pool.cpp">
+			<Option target="AsioServer"/>
+		</Unit>
+		<Unit filename="/Users/shiyi/CLionProjects/AsioServer/io_service_pool.h">
+			<Option target="AsioServer"/>
+		</Unit>
+		<Unit filename="/Users/shiyi/CLionProjects/AsioServer/main.cpp">
+			<Option target="AsioServer"/>
+		</Unit>
+		<Unit filename="/Users/shiyi/CLionProjects/AsioServer/message.cpp">
+			<Option target="AsioServer"/>
+		</Unit>
+		<Unit filename="/Users/shiyi/CLionProjects/AsioServer/message.h">
+			<Option target="AsioServer"/>
+		</Unit>
+		<Unit filename="/Users/shiyi/CLionProjects/AsioServer/server.cpp">
+			<Option target="AsioServer"/>
+		</Unit>
+		<Unit filename="/Users/shiyi/CLionProjects/AsioServer/server.h">
+			<Option target="AsioServer"/>
+		</Unit>
+		<Unit filename="/Users/shiyi/CLionProjects/AsioServer/sync_queue.cpp">
+			<Option target="AsioServer"/>
+		</Unit>
+		<Unit filename="/Users/shiyi/CLionProjects/AsioServer/sync_queue.h">
+			<Option target="AsioServer"/>
+		</Unit>
+		<Unit filename="/Users/shiyi/CLionProjects/AsioServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
