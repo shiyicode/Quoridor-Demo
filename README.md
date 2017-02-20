@@ -9,11 +9,26 @@
 ![Image text](https://raw.githubusercontent.com/shiyi1996/Quoridor/master/image/%E6%9C%AA%E5%91%BD%E5%90%8D_meitu_2.png)
 
 # 客户端设计
-
+- GlobalDefine        ：游戏数据存储模块
+- SplashLayer         ：资源加载界面
+- SettingLayer        ：设置界面
+- ChoosePlayLayer     ：游戏模式选择界面
+- GameLayer           ：游戏主界面基类
+- GameWithCmpLayer    ：单机模式主界面
+- GameWithPlayerLayer ：在线模式主界面
+- AI                  ：机器走法计算模块
+- ResultLayer         ：注册界面
+- LoginLayer          ：登陆界面
 # 服务端设计
 ## 网络部分
-- server         ：完成端口绑定监听、连接控制器的建立、调度池的启动与结束、统一事件源。
-- io_service_pool：构建调度器集合，并构建对应线程池，封装对调度器集合的操作，保证调度器的运行
-- connection     ：对连接进行封装，含异步读写操作，读写缓冲区，以及写缓冲队列。
-- message        ：缓冲区的封装，将消息分为包头和包体，解决粘包情况
-- sync_queue     ：同步队列，使用信号量和互斥锁，解决socket多对一写操作的冲突问题。
+- server          ：完成端口绑定监听、连接控制器的建立、调度池的启动与结束、统一事件源
+- io_service_pool ：构建调度器集合，并构建对应线程池，封装对调度器集合的操作，保证调度器的运行
+- connection      ：对连接进行封装，含异步读写操作，读写缓冲区，以及写缓冲队列
+- message         ：缓冲区的封装，将消息分为包头和包体，解决粘包情况
+- sync_queue      ：同步队列，使用信号量和互斥锁，解决socket多对一写操作的冲突问题
+## 业务逻辑部分
+- factory         ：自动注册工厂类，消除业务逻辑中繁杂的Switch语句，提高代码质量
+- action          ：业务逻辑基类
+- login_action    ：登陆逻辑
+- register_action ：注册逻辑
+- XXX_action      ：其他业务逻辑(还在开发中)
